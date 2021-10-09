@@ -1,6 +1,6 @@
 # Spring Security 跨域处理
 
-## 注入 CorsConfigurationSource
+## 1 注入 CorsConfigurationSource
 
 ```java
 @Configuration
