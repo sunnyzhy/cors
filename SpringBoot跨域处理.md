@@ -1,10 +1,10 @@
 # Spring Boot 跨域处理
 
-## @CrossOrigin 注解
+## 1 @CrossOrigin 注解
 
 直接在类或者方法上使用 ```@CrossOrigin``` 注解; 但这只能进行处理局部跨域。
 
-## 注入 WebMvcConfigurer
+## 2 注入 WebMvcConfigurer
 
 注入 ```WebMvcConfigurer``` 处理全局跨域。
 
@@ -23,7 +23,7 @@ public class WebConfig implements WebMvcConfigurer {
 }
 ```
 
-## 注入 CorsFilter
+## 3 注入 CorsFilter
 
 注入 ```CorsFilter``` 处理全局跨域。
 
