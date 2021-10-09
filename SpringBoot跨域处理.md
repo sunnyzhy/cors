@@ -1,4 +1,4 @@
-# SpringBoot 跨域处理
+# Spring Boot 跨域处理
 
 ## @CrossOrigin 注解
 
